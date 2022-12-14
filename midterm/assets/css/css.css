@@ -1,0 +1,105 @@
+html,body {
+	font-family: 'Karla';
+	background: #E5C185;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	margin: 0px;
+    text-align: center;
+}
+
+#picture {
+    background-image: url("../img/gypsys.png");
+    width: 100%;
+    height: 80%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-position: center;
+    background-size: cover;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+}
+
+.text h1 {
+    font-size: 100px;
+}
+
+#header-left {
+    margin-left: 15px;
+}
+
+#header-right {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-right: 15px;
+}
+
+#header {
+    display: flex;
+}
+
+#logo-img {
+    height: 70px;
+}
+
+#logo-img img {
+    height: 100%
+}
+
+.header-page {
+    display: flex;
+    align-items: center;
+}
+
+.header-page a {
+    color:red;
+}
+
+.header-page a:hover {
+    color: green;
+}
+
+#about-us-bottom {
+    display: flex;
+}
+
+#about-us {
+    display: flex;
+    justify-content: center;
+}
+
+#about-us-inner {
+    max-width: 70%;
+}
+
+#about-us-text {
+    font-size: 20px;
+}
+
+.menu-item  {
+    display: flex;
+    justify-content: center; 
+}
+
+.menu-item-inner {
+    display: flex;
+    justify-content: center;
+    max-width: 70%;
+}
+
+.menu-item-img img {
+    height: 300px;
+}
+
+.menu-item-text {
+    margin-left: 20px;
+    width: 300px;
+}
